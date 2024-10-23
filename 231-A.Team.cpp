@@ -1,15 +1,17 @@
+/**
+ *        Author:  NUR E MUDDASSIR TANIM, American International University, Bangladesh
+ *        Created: 2024-07-07 19:03:21
+ **/
 
-//https://codeforces.com/problemset/problem/231/A
+
 #include <bits/stdc++.h>
 
 using namespace std;
-
 #define endl '\n'
 using ll = long long;
 const int N = 1e5 + 9;
 
-void solve () 
-{
+int main() {
   int n,i,sum,count=0;
     int p[3];
     cin>>n;
@@ -24,15 +26,6 @@ void solve ()
         if(sum>=2) count++;
     }
     cout<<count;
-
-}
-
-int32_t main() {
-
-  ios_base::sync_with_stdio(0);
-  cin.tie(0);
-
-  solve();
 
   return 0;
 
